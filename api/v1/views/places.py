@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Handles all default RestFul API actions for Place objects.
+This module handles all default RestFul API actions for Place objects.
+It provides handlers to retrieve and manipulate place information stored in the system.
 """
 from flask import request, abort, jsonify
 from models import storage
